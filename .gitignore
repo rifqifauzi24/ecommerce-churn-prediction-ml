@@ -1,0 +1,17 @@
+# Data mentah (terlalu besar & tidak perlu di GitHub)
+data/raw/
+
+# Model pickle Random Forest (terlalu besar 10MB, cukup XGBoost)
+models/random_forest_churn.pkl
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+~$*
+
+# Environment
+.env
