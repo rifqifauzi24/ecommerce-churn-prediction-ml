@@ -13,8 +13,7 @@ st.set_page_config(
 # ── Load Model ───────────────────────────────────────
 @st.cache_resource
 def load_model():
-    return joblib.load('../models/xgboost_churn.pkl')
-
+    return joblib.load('models/xgboost_churn.pkl')
 model = load_model()
 
 # ── Header ───────────────────────────────────────────
